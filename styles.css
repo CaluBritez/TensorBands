@@ -1,0 +1,32 @@
+.band-label {
+    margin-bottom: 10px;
+    color: #000000;
+}
+.vote-input {
+    width: 80px;
+}
+.band-item {
+    background-color: #bb8024;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: solid 1px #000000 ;
+    padding: 10px;
+}
+h5 {
+    margin-bottom: 15px;
+}
+body {
+    background-color: #e8d5a2;
+}
+#bandsList{
+    margin-top: 30px;
+}
+#buttonStyle {
+    background-color:#bb8024;
+    border: solid 1px #000000;
+    color: #000000;
+} 
+li {
+    font-weight: bold;
+} 

@@ -48,7 +48,7 @@ function displayResults(userFeatsTensor, features) {
   
     // Crear elementos HTML para mostrar los resultados
     const resultsTitle = document.createElement('h2');
-    resultsTitle.textContent = 'Results';
+    resultsTitle.textContent = 'Estos son tus resultados de cada Género:';
     resultsDiv.appendChild(resultsTitle);
   
     const resultList = document.createElement('ul');
