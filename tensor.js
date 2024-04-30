@@ -6,10 +6,14 @@ const user_votes = [];
 function generateBandInputs() {
   const bandsList = document.getElementById('bandsList');
   bands.forEach((band) => {
+
+    const bandItem = document.createElement('div');
+    bandItem.className = 'band-item';
+
     const label = document.createElement('label');
     label.className = 'band-label';
     label.textContent = band;
-    bandsList.appendChild(label);
+    bandItem.appendChild(label);
 
     const voteInput = document.createElement('input');
     voteInput.type = 'number';
@@ -17,7 +21,9 @@ function generateBandInputs() {
     voteInput.min = 1;
     voteInput.max = 10;
     voteInput.required = true;
-    bandsList.appendChild(voteInput);
+    bandItem.appendChild(voteInput);
+
+    bandsList.appendChild(bandItem);
   });
 }
 generateBandInputs();
